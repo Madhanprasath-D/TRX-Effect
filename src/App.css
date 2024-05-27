@@ -422,4 +422,13 @@
     padding: 0;
     letter-spacing: 12px;
   }
+  .left img{
+    width: 70%;
+  }
+  .right p{
+    font-size: 12px;
+  }
+  .right h2{
+    font-size: 30px;
+  }
 }
