@@ -1,0 +1,40 @@
+.outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.expand{
+    padding-top: 200px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+.circle{
+    background-color: black;
+    margin: auto;
+    border-radius:50%;
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    z-index: -10;
+}
+.black_circle{
+    width: 50px;
+    height: 50px;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+.black_circle img{
+    width: 30px;
+    height: 30px;
+}
+p{
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 17px;
+    /* letter-spacing: 2px; */
+    color: white;
+}
